@@ -40,6 +40,13 @@
 		14C3A09D201CA62000C7A28C /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C3A09C201CA62000C7A28C /* Shape.swift */; };
 		14D753A91FE173C80038F931 /* CommandFill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D753A81FE173C80038F931 /* CommandFill.swift */; };
 		14D753AB1FE17D290038F931 /* Vec2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D753AA1FE17D290038F931 /* Vec2D.swift */; };
+		F76FF015218D232A00DA7504 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76FF014218D232A00DA7504 /* AppDelegate.swift */; };
+		F76FF017218D232A00DA7504 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76FF016218D232A00DA7504 /* ViewController.swift */; };
+		F76FF019218D232E00DA7504 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F76FF018218D232E00DA7504 /* Assets.xcassets */; };
+		F76FF01C218D232E00DA7504 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F76FF01A218D232E00DA7504 /* Main.storyboard */; };
+		F76FF028218D232E00DA7504 /* DrawMyNameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76FF027218D232E00DA7504 /* DrawMyNameTests.swift */; };
+		F76FF031218D245D00DA7504 /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76FF030218D245D00DA7504 /* CanvasView.swift */; };
+		F777FBE921835188002DBB3A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F777FBE821835188002DBB3A /* Extensions.swift */; };
 		OBJ_109 /* TortoiseGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_53 /* TortoiseGraphics.framework */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +57,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_55;
 			remoteInfo = TortoiseGraphics;
+		};
+		F76FF024218D232E00DA7504 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F76FF011218D232A00DA7504;
+			remoteInfo = DrawMyName;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -87,12 +101,38 @@
 		14C3A09C201CA62000C7A28C /* Shape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
 		14D753A81FE173C80038F931 /* CommandFill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandFill.swift; sourceTree = "<group>"; };
 		14D753AA1FE17D290038F931 /* Vec2D.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vec2D.swift; sourceTree = "<group>"; };
+		F76FF012218D232A00DA7504 /* DrawMyName.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawMyName.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F76FF014218D232A00DA7504 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F76FF016218D232A00DA7504 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F76FF018218D232E00DA7504 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F76FF01B218D232E00DA7504 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F76FF01D218D232E00DA7504 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F76FF01E218D232E00DA7504 /* DrawMyName.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DrawMyName.entitlements; sourceTree = "<group>"; };
+		F76FF023218D232E00DA7504 /* DrawMyNameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawMyNameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F76FF027218D232E00DA7504 /* DrawMyNameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawMyNameTests.swift; sourceTree = "<group>"; };
+		F76FF029218D232E00DA7504 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F76FF030218D245D00DA7504 /* CanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
+		F777FBE821835188002DBB3A /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		OBJ_53 /* TortoiseGraphics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = TortoiseGraphics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_54 /* TortoiseGraphicsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = TortoiseGraphicsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		F76FF00F218D232A00DA7504 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F76FF020218D232E00DA7504 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		OBJ_101 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
@@ -148,12 +188,37 @@
 			path = Playground;
 			sourceTree = "<group>";
 		};
+		F76FF013218D232A00DA7504 /* DrawMyName */ = {
+			isa = PBXGroup;
+			children = (
+				F76FF014218D232A00DA7504 /* AppDelegate.swift */,
+				F76FF016218D232A00DA7504 /* ViewController.swift */,
+				F76FF018218D232E00DA7504 /* Assets.xcassets */,
+				F76FF01A218D232E00DA7504 /* Main.storyboard */,
+				F76FF01D218D232E00DA7504 /* Info.plist */,
+				F76FF01E218D232E00DA7504 /* DrawMyName.entitlements */,
+				F76FF030218D245D00DA7504 /* CanvasView.swift */,
+			);
+			path = DrawMyName;
+			sourceTree = "<group>";
+		};
+		F76FF026218D232E00DA7504 /* DrawMyNameTests */ = {
+			isa = PBXGroup;
+			children = (
+				F76FF027218D232E00DA7504 /* DrawMyNameTests.swift */,
+				F76FF029218D232E00DA7504 /* Info.plist */,
+			);
+			path = DrawMyNameTests;
+			sourceTree = "<group>";
+		};
 		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
 				OBJ_7 /* Sources */,
 				1456315C1FE4806400B3B2A9 /* Playground */,
+				F76FF013218D232A00DA7504 /* DrawMyName */,
+				F76FF026218D232E00DA7504 /* DrawMyNameTests */,
 				OBJ_52 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -163,6 +228,8 @@
 			children = (
 				OBJ_53 /* TortoiseGraphics.framework */,
 				OBJ_54 /* TortoiseGraphicsTests.xctest */,
+				F76FF012218D232A00DA7504 /* DrawMyName.app */,
+				F76FF023218D232E00DA7504 /* DrawMyNameTests.xctest */,
 			);
 			name = Products;
 			sourceTree = BUILT_PRODUCTS_DIR;
@@ -181,6 +248,7 @@
 				142F5C971EDC6165008BEFAB /* Tortoise+PenControl.swift */,
 				142F5C9B1EDC63DA008BEFAB /* Tortoise+TortoiseState.swift */,
 				142F5C841EDC5688008BEFAB /* Internal */,
+				F777FBE821835188002DBB3A /* Extensions.swift */,
 			);
 			path = Sources;
 			sourceTree = SOURCE_ROOT;
@@ -188,6 +256,41 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		F76FF011218D232A00DA7504 /* DrawMyName */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F76FF02E218D232E00DA7504 /* Build configuration list for PBXNativeTarget "DrawMyName" */;
+			buildPhases = (
+				F76FF00E218D232A00DA7504 /* Sources */,
+				F76FF00F218D232A00DA7504 /* Frameworks */,
+				F76FF010218D232A00DA7504 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrawMyName;
+			productName = DrawMyName;
+			productReference = F76FF012218D232A00DA7504 /* DrawMyName.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F76FF022218D232E00DA7504 /* DrawMyNameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F76FF02F218D232E00DA7504 /* Build configuration list for PBXNativeTarget "DrawMyNameTests" */;
+			buildPhases = (
+				F76FF01F218D232E00DA7504 /* Sources */,
+				F76FF020218D232E00DA7504 /* Frameworks */,
+				F76FF021218D232E00DA7504 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F76FF025218D232E00DA7504 /* PBXTargetDependency */,
+			);
+			name = DrawMyNameTests;
+			productName = DrawMyNameTests;
+			productReference = F76FF023218D232E00DA7504 /* DrawMyNameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		OBJ_102 /* TortoiseGraphicsTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = OBJ_103 /* Build configuration list for PBXNativeTarget "TortoiseGraphicsTests" */;
@@ -228,8 +331,18 @@
 		OBJ_1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1000;
 				LastUpgradeCheck = 9999;
 				TargetAttributes = {
+					F76FF011218D232A00DA7504 = {
+						CreatedOnToolsVersion = 10.0;
+						ProvisioningStyle = Automatic;
+					};
+					F76FF022218D232E00DA7504 = {
+						CreatedOnToolsVersion = 10.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F76FF011218D232A00DA7504;
+					};
 					OBJ_102 = {
 						LastSwiftMigration = 0920;
 					};
@@ -244,6 +357,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = OBJ_5;
 			productRefGroup = OBJ_52 /* Products */;
@@ -252,9 +366,30 @@
 			targets = (
 				OBJ_55 /* TortoiseGraphics */,
 				OBJ_102 /* TortoiseGraphicsTests */,
+				F76FF011218D232A00DA7504 /* DrawMyName */,
+				F76FF022218D232E00DA7504 /* DrawMyNameTests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F76FF010218D232A00DA7504 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F76FF019218D232E00DA7504 /* Assets.xcassets in Resources */,
+				F76FF01C218D232E00DA7504 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F76FF021218D232E00DA7504 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
 		144B453B1FDF793F00F711EB /* Run SwiftLint */ = {
@@ -274,6 +409,24 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		F76FF00E218D232A00DA7504 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F76FF017218D232A00DA7504 /* ViewController.swift in Sources */,
+				F76FF015218D232A00DA7504 /* AppDelegate.swift in Sources */,
+				F76FF031218D245D00DA7504 /* CanvasView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F76FF01F218D232E00DA7504 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F76FF028218D232E00DA7504 /* DrawMyNameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		OBJ_106 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
@@ -316,6 +469,7 @@
 				145624921ED99E4800173B9A /* GraphicsContext.swift in Sources */,
 				145624981EDAA48D00173B9A /* ImageCanvas.swift in Sources */,
 				145624901ED99D8600173B9A /* State.swift in Sources */,
+				F777FBE921835188002DBB3A /* Extensions.swift in Sources */,
 				1456248E1ED99D1900173B9A /* Command.swift in Sources */,
 				142F5C9C1EDC63DA008BEFAB /* Tortoise+TortoiseState.swift in Sources */,
 			);
@@ -324,6 +478,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		F76FF025218D232E00DA7504 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F76FF011218D232A00DA7504 /* DrawMyName */;
+			targetProxy = F76FF024218D232E00DA7504 /* PBXContainerItemProxy */;
+		};
 		OBJ_110 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_55 /* TortoiseGraphics */;
@@ -331,7 +490,262 @@
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		F76FF01A218D232E00DA7504 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F76FF01B218D232E00DA7504 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
+		F76FF02A218D232E00DA7504 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = DrawMyName/DrawMyName.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = DrawMyName/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = ca.selenayang.DrawMyName;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		F76FF02B218D232E00DA7504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = DrawMyName/DrawMyName.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = DrawMyName/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = ca.selenayang.DrawMyName;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		F76FF02C218D232E00DA7504 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = DrawMyNameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = ca.selenayang.DrawMyNameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrawMyName.app/Contents/MacOS/DrawMyName";
+			};
+			name = Debug;
+		};
+		F76FF02D218D232E00DA7504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = DrawMyNameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = ca.selenayang.DrawMyNameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrawMyName.app/Contents/MacOS/DrawMyName";
+			};
+			name = Release;
+		};
 		OBJ_104 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -476,6 +890,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		F76FF02E218D232E00DA7504 /* Build configuration list for PBXNativeTarget "DrawMyName" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F76FF02A218D232E00DA7504 /* Debug */,
+				F76FF02B218D232E00DA7504 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F76FF02F218D232E00DA7504 /* Build configuration list for PBXNativeTarget "DrawMyNameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F76FF02C218D232E00DA7504 /* Debug */,
+				F76FF02D218D232E00DA7504 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
 		OBJ_103 /* Build configuration list for PBXNativeTarget "TortoiseGraphicsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
