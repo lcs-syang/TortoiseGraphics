@@ -16,6 +16,7 @@ class CanvasView: NSView {
         canvas.drawing { t in
             
             // Add your commands within this block
+            t.penSize(5)
             // S
             t.uppercaseS()
             //e
@@ -27,26 +28,19 @@ class CanvasView: NSView {
             //n
             t.lowercasen()
             //a
-            //turn direction
-            t.left(50)
-            //moving up
-            t.curve(withSides: 50, withSize: 15, drawSides: 4)
-            //turn direction
-            t.right(170)
-            //moving back
-            t.curve(withSides: -50, withSize: 15, drawSides: 2)
-            //turn around
-            t.curve(withSides: -90, withSize: 1, drawSides: 50)
-            //turn direction
-            t.left(15)
-            //moving up
-            t.curve(withSides: 50, withSize: 15, drawSides: 2)
-            //turn direction
-            t.right(170)
-            //moving backward
-            t.curve(withSides: -50, withSize: -15, drawSides: -4)
-            //turn around
-            t.curve(withSides: -200, withSize: 1, drawSides: 45)
+            t.lowercasea()
+            //Y
+            t.uppercaseY()
+            //a
+            t.lowercasea()
+            //n
+            t.lowercasen()
+            //g
+            t.lowercaseg()
+            
+            t.penSize(1)
+            
+            
         }
     }
     
