@@ -16,6 +16,7 @@ class CanvasView: NSView {
         canvas.drawing { t in
             
             // Add your commands within this block
+            
             t.penSize(5)
             // S
             t.uppercaseS()
